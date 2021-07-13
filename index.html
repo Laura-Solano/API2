@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>API Project 2</title>
+    <link rel="stylesheet" type="text/css" href="api2.css" />
+  </head>
+  <body>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Holiday Calendar</h3>
+              <nav>
+                <ul class="nav masthead-nav">
+                  <li class="active"><a href="#">Home</a></li>
+                  <li><a href="#">Today's Holiday</a></li>
+                  <li><a href="#">Search a Holiday</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+
+          <div class="inner cover">
+            <h1 class="cover-heading">Welcome to Holidays of the World!</h1>
+            <p class="lead">
+              Here you will see the holiday of today's current date. You can
+              also search up holidays by date using a start date and end date.
+            </p>
+            <br />
+            <p class="lead">
+              <a href="#" class="btn btn-lg btn-default">Learn more</a>
+            </p>
+          </div>
+          <br />
+          <section id = "topBanner">
+<img src= "https://images.pexels.com/photos/636246/pexels-photo-636246.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+          </section>
+          <div class="middleBanner">
+            <h1>Today's Holiday</h1>
+            <div class="results">
+              <p id="holidayToday"></p>
+            </div>
+          </div>
+          <div class="searchField"></div>
+          <h1>Search for a Holiday</h1>
+          <form>
+            <p>
+              <label for="search"> Enter Holiday Start Date: </label>
+              <input type="date" pattern="[0-9]{8}" />
+            </p>
+            <!-- <p>
+              <label for="search"> Enter Holiday End Date: </label>
+              <input type="date" pattern="[0-9]{8}" />
+            </p> -->
+            <p>
+              <button id="submitButton">Submit</button>
+            </p>
+          </form>
+          <div class="results">
+            <ul id="searchedHoliday"></ul>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>API Project 2 by Laura Solano</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"
+    ></script>
+    <script src="api2.js"></script>
+  </body>
+</html>
