@@ -14,7 +14,7 @@
         <div class="cover-container">
           <div class="masthead clearfix">
             <div class="inner">
-              <h3 class="masthead-brand">Holiday Calendar</h3>
+              <h2 class="masthead-brand">Holiday Calendar</h3>
               <nav>
                 <ul class="nav masthead-nav">
                   <li class="active"><a href="#">Home</a></li>
@@ -25,47 +25,47 @@
             </div>
           </div>
 
-          <div class="inner cover">
-            <h1 class="cover-heading">Welcome to Holidays of the World!</h1>
-            <p class="lead">
-              Here you will see the holiday of today's current date. You can
-              also search up holidays by date using a start date and end date.
+          <div class="innercover">
+            <h1 class="cover-heading">Welcome to Holidays of the United States!</h1>
+            <p class="lead"> Bored and need a reason to party? Want to explain your tardiness to work?
+              Here you will see a random holiday of today's date for whatever special reason you need. 
+              For those who have future plans to escape, you can also search up holidays by putting in a date. 
+              Whatever the reason, enjoy!
             </p>
             <br />
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Learn more</a>
-            </p>
+           
           </div>
           <br />
           <section id = "topBanner">
 <img src= "https://images.pexels.com/photos/636246/pexels-photo-636246.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
           </section>
           <div class="middleBanner">
-            <h1>Today's Holiday</h1>
+            <h1 class="cover-heading">Today's Holiday Catered to You</h1>
             <div class="results">
-              <p id="holidayToday"></p>
+              <h2 id="todayHoliday"></h2>
+              <p id="todayHolidayDescription"></p>
             </div>
           </div>
           <div class="searchField"></div>
-          <h1>Search for a Holiday</h1>
+          <h1 class="cover-heading" >Search for a Holiday</h1>
+          <p id ="note">Note: only holidays existing as of 2021 will be posted. Also despite your best efforts, your work may not accept the holiday as a reasonable excuse for missing work.</p>
           <form>
             <p>
               <label for="search"> Enter Holiday Start Date: </label>
-              <input type="date" pattern="[0-9]{8}" />
+              <input type="date" id="date" pattern="[0-9]{8}"/>
             </p>
-            <!-- <p>
-              <label for="search"> Enter Holiday End Date: </label>
-              <input type="date" pattern="[0-9]{8}" />
-            </p> -->
+          
             <p>
-              <button id="submitButton">Submit</button>
+              <button id="submitButton" type ="submit">Submit</button>
             </p>
           </form>
           <div class="results">
-            <ul id="searchedHoliday"></ul>
+            <ul id="searchedHoliday">
+
+              </ul>
           </div>
 
-          <div class="mastfoot">
+          <div class="footer">
             <div class="inner">
               <p>API Project 2 by Laura Solano</p>
             </div>

@@ -1,0 +1,137 @@
+
+a,
+a:focus,
+a:hover {
+  color: #fff;
+  
+}
+
+
+.innercover {
+  background-image: url('https://images.pexels.com/photos/5372794/pexels-photo-5372794.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-color: pink;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:50vh;  
+}
+
+body {
+  height: 100%;
+  background-image: url('https://images.pexels.com/photos/6775241/pexels-photo-6775241.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+  background-color: palegreen;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body {
+  color: #fff;
+  text-align: center;
+  
+}
+
+li{
+  color:black
+}
+.site-wrapper-inner {
+  /* display: table-cell; */
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.inner {
+  padding: 30px;
+} 
+
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; 
+  color: rgba(255,255,255,.75);
+  text-shadow: 0 2px 3px rgb(2, 2, 2);
+ 
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+  
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+  
+}
+
+.lead {
+
+  
+}
+
+.cover-heading {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  border-bottom: 2px solid transparent;
+  text-shadow: 0 2px 3px rgb(2, 2, 2);
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+    text-shadow: 0 2px 3px rgb(2, 2, 2);
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+p{
+  font-size: 130%;
+  padding-block: 2%;
+  text-align: center;
+  color: #444444;
+  font-weight: bold;
+  text-shadow: 0 2px 3px rgb(248, 245, 245);
+  background-color: azure;
+  opacity: .8;
+}
+
+h2{
+  color: #444444;
+}
+
+#submitButton {
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+#topBanner{
+  max-width: 100%;
+  background-color: pink;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.footer {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+
+
+
+
